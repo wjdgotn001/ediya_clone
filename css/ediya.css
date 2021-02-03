@@ -1,0 +1,125 @@
+
+@import url(./common.css);
+
+
+#wrap { width: 100%; height:auto; min-height:1000px; }
+
+#headBox { 
+    position: relative; padding-top:60px; 
+    width:100%; max-width:1420px; height:auto; min-height:70px; margin:auto; }
+
+.unbWrap { 
+    position: absolute; top:0; left:0;
+    width:100%; height:60px; padding:10px; box-sizing: border-box; }
+
+.site { float:left; width:230px; height:15px; margin-top:12px; }
+
+.site > ul { width: 100%; height: 100%; }
+
+.site > ul > li { 
+    float: left; width:114px; height: 100%; line-height:15px; text-align:center;
+    border-right:1px solid #848484;}
+
+.site > ul > li:last-child { border-right:0; }
+
+.site > ul > li:hover,
+.site > ul > li:focus { color:#1d3267; }
+
+.site a { 
+    display:block; width: 100%; height: 100%; }
+
+#headBox > h1 { 
+    position: absolute; z-index: 50;
+    float: left; width:16%; height:20px; 
+    margin-left:20px; margin-top:15px;
+    background-image: url(../img/header/logo.gif);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain; } 
+
+#headBox > h1 > a {display:block; width: 100%; height: 100%; }
+
+.unbBox { float: right; width:645px; height:27px; margin-top:5px; margin-right:65px; }
+
+.member { 
+    float: left; width:340px; height:15px; margin:5px 15px; }
+
+.member > ul { width: 100%; height: 100%; }
+
+.member > ul > li { 
+    float: left; padding:0 15px;
+    width:auto; height: 100%; text-align: center; 
+    border-right:1px solid #848484; box-sizing: border-box;
+    line-height:15px; }
+
+.member > ul > li:last-child { border-right:0; }
+
+.member a { display:block; width: 100%; height: 100%; }
+
+.sns { float: left; width:123px; height: 100%; margin-right:10px; }
+
+.sns > ul { width: 100%; height: 100%; }
+
+.sns > ul > li { float: left; width:27px; height: 100%; margin-right:5px; }
+.sns > ul > li:last-child { margin-right:0; }
+
+.sns a { display:block; width: 100%; height: 100%; }
+
+.sns a > img { width: 100%; height: 100%; }
+
+.language { 
+    position: relative; float: right; 
+    width:140px; height:28px; border:1px solid #d9d9d9; box-sizing: border-box; }
+
+.language > dl { width: 100%; height:auto; }
+
+.language dt { width:100%; height:28px; }
+
+.language dt > button { 
+    width: 100%; height: 100%; 
+    line-height:28px; text-align: left; text-indent:10px; color:#848484; }
+
+.language dd { 
+    display:none;
+    position: absolute; top:0; left:0; z-index: 50;
+    width:100%; height:auto; box-sizing: border-box;
+    border:1px solid #d9d9d9; background-color: #fff;  }
+
+.language dd > a { 
+    display:block; width: 100%; height: 100%; 
+    margin:8px 0; text-indent: 10px; }
+
+.language dt::after { 
+    content:" "; display:block; width:10px; height:10px;
+    position: absolute; top:7px; right:10px; 
+    background-image: url(../img/language_arrow.gif);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain; }
+.gnbArea { position: relative; width: 100%; height:auto; min-height:70px; }
+
+.gnbWrap { float:right; width:80%; height:auto; margin-top:10px; }
+
+.gnbWrap > ul { width: 100%; height:auto;  }
+
+.gnbWrap > ul > li { 
+    float: left; width:16.666%; height:auto; 
+    padding:0 20px; box-sizing: border-box;
+    text-align:left; line-height:35px; }
+
+.gnbWrap dt > a { width: 100%; height: 100%; }
+
+.gnbWrap dd > a { display:block; width: 100%; height:auto; text-align: left; }
+.gnbWrap dd > a:nth-of-type(1) { margin-top:20px;}
+
+.gnbWrap dl { width:100%; height:auto; }
+
+.gnbWrap dt { width:100%; height:100%; }
+
+.gnbWrap dd { display: none; width: 100%; height:auto; padding-bottom: 50px; }
+
+.gnbWrap::before { 
+    content:" "; display:block; position: absolute; top:0; right:0;
+    z-index: -2; width: 100%; height: 100%; background-color: #fff; }   
+
+#viewBox { width: 100%; height:500px; background-color: lawngreen ;}
