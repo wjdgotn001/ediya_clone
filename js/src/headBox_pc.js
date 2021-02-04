@@ -65,8 +65,9 @@
     ];
     var gnbList= '<li><dl><dt></dt><dd></dd></dl></li>';
 
-    var header = $('#headBox');
-    var gnbWrap = header.find('.gnbWrap');
+    var headBoxWrap = $('.headBox_wrap');
+    var headBox = headBoxWrap.children('#headBox');
+    var gnbWrap = headBox.find('.gnbWrap');
     var gnbUl = gnbWrap.children('ul');
     var gnbLiLen = gnbContent.length;
     // console.log(gnbLiLen);
@@ -92,11 +93,13 @@
         };
     };//for
 
-    var gnbDt = gnbUl.find('dt');
+    var gnbDt = gnbWrap.find('dt');
     var gnbDtLink = gnbDt.children('a');
 
-    var gnbDd = gnbUl.find('dd');
+    var gnbDd = gnbWrap.find('dd');
     var gnbDdLink = gnbDd.children('a');
+
+    gnbDd.hide();
 
     // 함수
     var SlideDown = function(){
@@ -107,7 +110,7 @@
         gnbDd.stop().slideUp();
     };
 
-    gnbWrap.on({
+    gnbUl.on({
         'mouseenter':SlideDown,
         'mouseleave':SlideUp
     });
@@ -117,7 +120,7 @@
 
 
     // language
-    var language = header.find('.language');
+    var language = headBox.find('.language');
     var lanDt = language.find('dt');
     var lanDtBtn = lanDt.children('button');
 
