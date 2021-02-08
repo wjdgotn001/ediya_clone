@@ -199,3 +199,182 @@
 
 .view_btn .next_btn { float: right; background-image: url(../img/view/main_visual_next.png); }
 .view_btn .prev_btn { float: left; background-image: url(../img/view/main_visual_prev.png); }
+
+/* beanist_card */
+.beanist_card { width: 100%; height:500px; background-color: antiquewhite; }
+
+/* dream_factory */
+.dream_factory { 
+    overflow: hidden;
+    position: relative; width:100%; height:450px; 
+    padding:85px 70px; box-sizing: border-box;
+    background-image: url(../img/dream/dream_factory_bg.gif);
+    background-position: 50% 50%;
+    background-size:cover;
+    background-repeat: no-repeat; }
+
+.factory_wrap { width:100%; max-width:1420px; height:400px; }
+
+.dream_factory h2 { 
+    font-size:30px; color:#fff; line-height:70px;
+    font-weight: bold; text-transform: uppercase; }
+
+.dream_factory h2 > em { 
+    display:block;
+    width:100%; height:auto;
+    text-indent: -9999px;
+    background-image: url(../img/dream/dream_factory_txt.png);
+    background-repeat: no-repeat;
+    background-size: contain; }
+
+.df_img { position: absolute; right:-120px; bottom:0; text-align: right; }
+
+.df_img > img { width:70vw; max-width:1100px; height:auto; }
+
+.dream_factory p { margin-top:15px; font-size:17px; color:#fff; line-height:25px; }
+
+.df_btn { width:415px; height:45px; margin:30px 0; }
+
+.df_btn > ul { width: 100%; height: 100%; }
+
+.df_btn > ul > li { 
+    float: left; width:200px; height: 100%; margin-right:15px;
+    font-size: 15px; text-align: center; line-height:45px;
+    border:1px solid #fff; box-sizing: border-box; color:#fff; }
+
+.df_btn > ul > li:last-child { margin-right:0; }
+
+.df_btn a { display:block; width: 100%; height: 100%; }
+
+/* menu */
+.menu { 
+    width: 100%; height:500px;
+    padding:95px 0; box-sizing: border-box;
+    background-image: url(../img/etc/menu_click_bg.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size:cover; }
+
+.menu > h2 { 
+    font-size:42px; color:#fff; text-transform: uppercase;
+    text-align: center; font-weight: normal; }
+
+.menu > h2:after { 
+    display:block; content:" "; margin:auto; margin-top:50px;
+    width:100px; height:1px; background-color: #fff; }
+
+.menu > h2 > em { font-weight:bold; font-style: normal; }
+
+.menu > p { font-size:26px; color:#fff; margin:50px 0; text-align: center; }
+
+.menu_btn { 
+    width:200px; height:45px; margin:auto; 
+    text-align: center; font-style:15px; line-height:45px;
+    color:#fff; border:1px solid #fff; box-sizing: border-box; }
+
+.menu_btn > a { display:block; width: 100%; height: 100%; }
+
+/* company */
+.company { 
+    width:100%; height:460px; padding:80px 50px; box-sizing: border-box;
+    background-image: url(../img/etc/company_bg.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat; }
+
+.company_wrap { float: right; width:530px; height:410px; }
+
+.company_wrap > h2 { font-weight: normal; font-size:44px; color:#fff; margin-bottom: 60px; }
+
+.company_wrap > p { font-size:17px; color:#fff; line-height:26px; margin-bottom:30px; }
+
+.company_btn { width:415px; height:45px; }
+
+.company_btn > ul { width: 100%; height: 100%; }
+
+.company_btn > ul > li { 
+    float: left; width:200px; height:100%; margin-right:15px;
+    font-size: 15px; line-height:45px; color:#fff;
+    border:1px solid #fff; box-sizing: border-box; text-align: center; }
+
+.company_btn > ul > li:last-child { margin-right:0; }
+
+.company_btn a { display:block; width: 100%; height: 100%; }
+
+/* culture_lab */
+.culture_lab { 
+    width:100%; height:800px; padding:110px 0; box-sizing: border-box;
+    background-image: url(../img/etc/culture_bg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%; }
+
+.culture_lab > h2 { 
+    text-align: center; font-size:42px; font-weight: normal; text-transform: uppercase;
+    color:#fff; margin:auto; margin-bottom:20px; }
+
+.culture_lab > h2 > em { font-style: normal; font-weight: bold;}
+
+.culture_lab > p { font-size:26px; color:#fff; text-align: center; }
+
+.culture_lab > p:after { 
+    content:" "; display:block; width:100px; height:1px;
+    background-color:#1f76e4; margin:auto; margin-top:60px; }
+
+.icon_area { 
+    width: 100%; height:260px; margin-top:126px;
+    background:url(../img/etc/culture_line.png) no-repeat center top; }
+
+.icon_area > ul { width:800px; height: 100%; margin:auto; }
+
+.icon_area > ul > li { 
+    float: left; width:200px; height:150px; margin-right:100px; }
+
+.icon_area > ul > li:first-child { margin-top:105px; }
+.icon_area > ul > li:nth-last-child(2) { margin-top:40px; }
+.icon_area > ul > li:last-child { margin-right:0; margin-top:105px; }
+
+.icon_area a { display:block; width: 100%; height: 100%; }
+
+.icon_area .icon { 
+    width:100px; height:100px; margin:auto; margin-bottom: 10px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain; }
+
+.icon_01 { background-image: url(../img/etc/culture_icon_01.png);}
+.icon_02 { background-image: url(../img/etc/culture_icon_02.png);}
+.icon_03 { background-image: url(../img/etc/culture_icon_03.png);}
+
+.icon_area span { display:block; font-size:18px; color:#fff; text-align: center; }
+
+/* coffee_lab */
+.coffee_lab { 
+    width:100%; max-width:1420px; height:1056px; 
+    padding:50px; box-sizing: border-box  }
+
+.coffee_lab > h2 { text-transform: uppercase; font-size:42px; font-weight:normal; text-align: center; }
+
+.coffee_lab > h2 > em { font-style: normal; font-weight: bold; }
+
+.coffee_lab > p { font-size:26px; text-align: center; margin-top:20px; }
+
+.coffee_lab > p:after { 
+    content:" "; display:block; width:100px; height:1px;
+    margin:auto; margin-top:60px; margin-bottom:50px; background-color: #243c84; }
+
+.lab_img { width: 100%; height:660px;}
+
+.lab_img > ul { width: 100%; height: 100%; }
+
+.lab_img > ul > li { 
+    float: left; width:630px; height: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain; }
+
+.lab_img > ul > li:first-child { background-image: url(../img/etc/fade_01.jpg); z-index:10; margin-top:20px; }
+.lab_img > ul > li:nth-child(2) { background-image: url(../img/etc/fade_02.jpg); }
+
+.lab_img a { display:block; width: 100%; height: 100%; }
