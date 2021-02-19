@@ -66,7 +66,7 @@
     var gnbList= '<li><dl><dt></dt><dd></dd></dl></li>';
 
     var headBoxWrap = $('.headBox_wrap');
-    var headBox = headBoxWrap.children('#headBox');
+    var headBox = headBoxWrap.children('.headBox');
     var gnbWrap = headBox.find('.gnbWrap');
     var gnbUl = gnbWrap.children('ul');
     var gnbLiLen = gnbContent.length;
