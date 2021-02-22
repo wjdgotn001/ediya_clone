@@ -5,6 +5,7 @@
   
     var deviceType = ['mobile','tablet','pc','pcfull'];
     var pcUrl = './pc/';
+    var mbUrl = './mb/';
   
     // 변수
     var headBox = $('.headBox');
@@ -23,6 +24,7 @@
     var viewImport = function(){
       viewBox.append('<script src="../js/src/viewBox.js"></script>');
     };
+
     var beanistImport = function(){
       beanist.append('<script src="../js/src/beanist.js"></script>');
     };
@@ -31,7 +33,7 @@
   // ======================================================
   if(nowW === deviceType[0]){
     headImport();
-    viewImport();
+    viewBox.load(mbUrl + 'mb_viewBox.html', viewImport);
     beanistImport();
   
     // viewBox.load( url + '' );
@@ -39,15 +41,11 @@
     headImport();
     viewImport();
     beanistImport();
-
-
-  
   }
   else{
     headBox.load(pcUrl + 'pc_headBox.html', headPcImport);
     viewImport();
     beanistImport();
-    
   }
     
   
